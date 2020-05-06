@@ -19,7 +19,7 @@ public class Prospector : MonoBehaviour {
     public Vector2 fsPosRun = new Vector2(0.5f, 0.75f);
     public Vector2 fsPosMid2 = new Vector2(0.4f, 1.0f);
     public Vector2 fsPosEnd = new Vector2(0.5f, 0.95f);
-    public float reloadDelay = 1f; // The delay between rounds
+    public float reloadDelay = 3f; // The delay between rounds
     public Text gameOverText, roundResultText, highScoreText;
 
     [Header("Set Dynamically")]
@@ -362,7 +362,7 @@ public class Prospector : MonoBehaviour {
     void ReloadLevel()
     {
         // Reload the scene, resetting the game
-        SceneManager.LoadScene("__Prospector_Scene_0");
+        SceneManager.LoadScene("Assets/scene-MainMenu.unity");
     }
 
     // Return true if the two cards are adjacent in rank (A & K wrap around)

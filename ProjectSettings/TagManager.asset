@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - ProjectileHero
+  - PowerUp
+  - Hero
+  - ProjectileEnemy
+  - PowerupBox
   layers:
   - Default
   - TransparentFX
@@ -13,11 +19,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - ProjectileHero
+  - ProjectileEnemy
+  - Enemy
+  - Hero
+  - PowerUp
   - 
   - 
   - 
@@ -40,4 +46,22 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Row0
+    uniqueID: 3244775319
+    locked: 0
+  - name: Row1
+    uniqueID: 960862771
+    locked: 0
+  - name: Row2
+    uniqueID: 128899889
+    locked: 0
+  - name: Row3
+    uniqueID: 2976545609
+    locked: 0
+  - name: Draw
+    uniqueID: 193298343
+    locked: 0
+  - name: Discard
+    uniqueID: 2822200433
     locked: 0

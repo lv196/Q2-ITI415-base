@@ -92,7 +92,7 @@ public class Main : MonoBehaviour {
     public void Restart()
     {
         // Reload _Scene_0 to restart the game
-        SceneManager.LoadScene("_Scene_0");
+        SceneManager.LoadScene("Assets/scene-MainMenu.unity");
     }
     ///<summary>
     ///Static function that gets a WeaponDefinition from the WEAP_DICT static
